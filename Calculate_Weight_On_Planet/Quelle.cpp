@@ -12,6 +12,7 @@ double weight_calculation(double Weight = 0.0, int Selection = 0) {
     // Get weight and Planet for calculation.
     std::cout << "Hi! Enter your current weight on Earth:";
     std::cin >> Weight;
+    // Do until the entry is correct
     while (Weight < 0) {
         std::cout << "Wrong entry, please enter a Positive value for Weight: ";
         std::cin >> Weight;
